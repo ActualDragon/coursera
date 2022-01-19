@@ -15,15 +15,22 @@
         <title>Coursera</title> <!-- the title tag is required for the code to work-->
         <style>
             p{
-                color: greenish blue;
+                color: darkcyan;
             }
             h1{
-                color: sea green;
+                color: darkslategray;
                 font-size: 36px;
                 text-align: center;
             }
+            .green {
+                color: #33995f;
+            }
+            #name {
+                color: #99334d;
+            }
         </style>
     </head>
+    
     <body> <!--The body tag is the root of all content visible to the user. Often referred to as viewport-->
         <header> Header element - some header information goes here.
             <nav>
@@ -57,7 +64,7 @@
         <h3>Subheading 3</h3>
             <div>
                 Shopping list:
-                <ul> <!-- ul (unordered list) -->
+                <ul class="green"> <!-- ul (unordered list) -->
                     <li>Milk</li> <!-- li (list item)-->
                     <li>Donuts</li>
                     <li>Cookies</li>
@@ -95,6 +102,6 @@
         <aside>
             <a href="index.html" title="Index page">Link to a file in the same directory</a>
         </aside> <!--Some information that relates to the main topic (ej. related posts) -->
-        <footer> Daniela Gomez</footer>
+        <footer id="name"> Daniela Gomez</footer>
     </body>
 </html>
