@@ -1,0 +1,91 @@
+<!-- This is how we insert comments -->
+
+<!DOCTYPE html>
+<!--Every HTML page should start with the doc type.
+    It can be lowercase or uppercase
+    There shouldn´t be any space between ! and doctype
+    It tells the browser to get reasy to process HTML.
+    If you leave it out, it tell the brower to treat your page as non compliant with HTML-->
+
+<html> <!-- HTML tag, contains the entire HTML document -->
+    <head> <!-- head tag contains items that describe the main content of the page
+                things like what character coding should the browser use for the main content,
+                page title, description , etc. Metadata about the main content-->
+        <meta charset="utf-8"> <!-- UTF-8 is the most common character set-->
+        <title>Coursera</title> <!-- the title tag is required for the code to work-->
+        <body> <!--The body tag is the root of all content visible to the user. Often referred to as viewport-->
+            <header> Header element - some header information goes here.
+                <nav>
+                    Navigation
+                    <a href="#section1">#section1</a>
+                </nav> <!-- Links to a different part of the web site -->
+            </header>
+            <h1>This is the Main Heading</h1>
+                <section id="section1">
+                    Section 1
+                    <article>Article 1</article>
+                    <article>Article 2</article>
+                </section>
+                <section>
+                    Section 2
+                    <article>Article 3</article>
+                    <article>Article 4</article>
+                </section>
+            <h2>
+                <div> *** Content on a DIV element ***</div>
+                <div> *** Content on a different DIV element ***</div>
+                <span>*** If I put a SPAN in a different line of code, it's placed on a new line in the website ***</span>
+                <div> *** Different DIV after the SPAN
+                    <span> *** SPAN inside a DIV ***</span>
+                    The rest of the DIV content ***
+                </div>
+                <p>
+                    Link to a different website
+                    <a href="https://www.google.com.mx/" target="_blank" title="Google">Google Page</a>
+                </p>
+            </h2>
+            <h3>Subheading 3</h3>
+                <div>
+                    Shopping list:
+                    <ul> <!-- ul (unordered list) -->
+                        <li>Milk</li> <!-- li (list item)-->
+                        <li>Donuts</li>
+                        <li>Cookies</li>
+                            <ul>
+                                <li>Chocolate</li>
+                                <li>Oreo</li>
+                            </ul>
+                        <li>Brownies</li>
+                    </ul>
+                </div>
+            <h4>Ordered list</h4>
+                <div>
+                    Oreo cookie eating procedure:
+                    <ol> <!-- ol (ordered list) -->
+                        <li>Open box</li>
+                        <li>Take cookie</li>
+                        <li>Make a double ordeo</li>
+                            <ol>
+                                <li>Open cookie</li>
+                                <li>Place another cookie in the middle</li>
+                                <li>Close cookie</li>
+                            </ol>
+                        <li>Enjoy!</li>
+                    </ol>
+                </div>
+            <h5>Characters to Escape</h5>
+                <p> <!-- Paraghraph -->
+                    &quot; Si quieres decir menor que usar &lt;, si quieres decir mayor que usar &gt;
+                    En lugar de el simbolo ampersand usar &amp; y usar &copy; para el simbolo de copyright.
+                </p>
+            <h6>
+                <img src="https://www.vets4pets.com/siteassets/dental-webheaders-dog---oct-20.jpg?w=585&scale=down"
+                     width="640" height="480">
+            </h6>
+            <aside>
+                <a href="index.html" title="Index page">Link to a file in the same directory</a>
+            </aside> <!--Some information that relates to the main topic (ej. related posts) -->
+            <footer> Daniela Gomez</footer>
+        </body>
+    </head>
+</html>
